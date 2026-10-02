@@ -19,12 +19,12 @@ Read [`images.json`](images.json) to select an illustration and its size. Each e
 | --- | --- |
 | `animals` | Animal figures and creatures with recognizable animal features. |
 | `humans` | Human figures. Human-like limbs on a creature do not by themselves add this category. |
-| `hybrids` | Figures visibly combining different kinds of bodies or features, such as a rabbit head with bird-like legs. |
+| `hybrids` | Figures visibly combining different kinds of bodies or features, such as a donkey head with rooster legs. |
 | `music` | Figures playing or holding musical instruments. Specific instruments appear in `subjects` and descriptions. |
 | `fantasy` | Mythical creatures, impossible anatomy, or animals performing human activities such as playing music. |
 | `royalty` | Visible royal imagery, currently a crown. This describes the motif, not a verified historical identity. |
 
-These tags describe the published cutouts. When a subject is identified or corrected, update its filename, catalog name, paths, metadata, and documentation together. Use descriptions for details and uncertainty: for example, `rabbit-lute-player` has a string instrument whose exact type is left unspecified. Ambiguous creatures use names such as `animal-like-creature`, `bird-like-creature`, `canine-like-creature`, and `dog-like-creature`; do not infer a definite species from those tags.
+These tags describe the published cutouts. When a subject is identified or corrected, update its filename, catalog name, paths, metadata, and documentation together. Use descriptions for details and uncertainty; `donkey-rooster-lute-player`, for example, combines a donkey head with rooster legs and a feathered tail while playing a lute. Ambiguous creatures use names such as `animal-like-creature`, `bird-like-creature`, `canine-like-creature`, and `dog-like-creature`; do not infer a definite species from those tags.
 
 ## Selection workflow
 

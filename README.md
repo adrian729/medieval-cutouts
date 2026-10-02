@@ -89,8 +89,8 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [flying-pig](webp/flying-pig.webp) — A pink pig facing right has large gold feathered wings, a curled tail, and dangling legs.
 - [frog](webp/frog.webp) — A broad green frog with dark spots crouches facing left.
 - [rabbit-bagpiper](webp/rabbit-bagpiper.webp) — An upright gray rabbit faces left while playing pale round bagpipes, with a short pipe on the left and a very long gold pipe extending right.
-- [rabbit-lute-player](webp/rabbit-lute-player.webp) — A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.
-- [seated-rabbit](webp/seated-rabbit.webp) — A seated cream-colored rabbit faces right with tall ears, a half-closed eye, blue-green hindquarters and legs, and a thick black outline.
+- [donkey-rooster-lute-player](webp/donkey-rooster-lute-player.webp) — A half-donkey, half-rooster hybrid facing right wears an orange tunic and black waist pouch, with a gray donkey head, gold rooster legs, and a green feathered tail, playing a gold lute.
+- [seated-rabbit](webp/seated-rabbit.webp) — A tired-looking seated cream-colored rabbit faces right with tall ears, a half-closed eye, blue-green hindquarters and legs, and a thick black outline.
 - [snail](webp/snail.webp) — An orange-brown snail faces right with long feelers and a large brown spiral shell.
 - [weird-dog](webp/weird-dog.webp) — A seated shaggy dog-like creature has a human-like bearded face looking toward the viewer, dark paws, and a long curled tail.
 - [white-animal-bagpiper](webp/white-animal-bagpiper.webp) — A seated pale animal-like creature with rounded ears, a long curled tail, and hand-like forelimbs faces the viewer while playing gold bagpipes.
@@ -129,7 +129,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
 - [fish-with-arms](webp/fish-with-arms.webp) — A blue-green fish faces right with two pale human arms raised above its back and red cloth between them.
 - [flying-pig](webp/flying-pig.webp) — A pink pig facing right has large gold feathered wings, a curled tail, and dangling legs.
-- [rabbit-lute-player](webp/rabbit-lute-player.webp) — A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.
+- [donkey-rooster-lute-player](webp/donkey-rooster-lute-player.webp) — A half-donkey, half-rooster hybrid facing right wears an orange tunic and black waist pouch, with a gray donkey head, gold rooster legs, and a green feathered tail, playing a gold lute.
 - [weird-dog](webp/weird-dog.webp) — A seated shaggy dog-like creature has a human-like bearded face looking toward the viewer, dark paws, and a long curled tail.
 - [winged-rabbit](webp/winged-rabbit.webp) — A blue-gray rabbit-like hybrid faces right with large brown feathered wings, a long feathered tail extending left, and clawed feet.
 
@@ -162,7 +162,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [musician-r3-c3-lute-player](webp/musician-r3-c3-lute-player.webp) — A standing brown-haired human wears a red jacket, dark blue dotted skirt, and red stockings, looking down toward the left while playing a pale lute with its neck pointing up-right.
 - [musician-r3-c4-pipe-player](webp/musician-r3-c4-pipe-player.webp) — A seated curly-haired human facing right wears a pale blue and cream striped sleeveless outfit and red stockings, playing a short straight gold pipe.
 - [rabbit-bagpiper](webp/rabbit-bagpiper.webp) — An upright gray rabbit faces left while playing pale round bagpipes, with a short pipe on the left and a very long gold pipe extending right.
-- [rabbit-lute-player](webp/rabbit-lute-player.webp) — A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.
+- [donkey-rooster-lute-player](webp/donkey-rooster-lute-player.webp) — A half-donkey, half-rooster hybrid facing right wears an orange tunic and black waist pouch, with a gray donkey head, gold rooster legs, and a green feathered tail, playing a gold lute.
 - [white-animal-bagpiper](webp/white-animal-bagpiper.webp) — A seated pale animal-like creature with rounded ears, a long curled tail, and hand-like forelimbs faces the viewer while playing gold bagpipes.
 
 </details>
@@ -182,7 +182,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [fish-with-arms](webp/fish-with-arms.webp) — A blue-green fish faces right with two pale human arms raised above its back and red cloth between them.
 - [flying-pig](webp/flying-pig.webp) — A pink pig facing right has large gold feathered wings, a curled tail, and dangling legs.
 - [rabbit-bagpiper](webp/rabbit-bagpiper.webp) — An upright gray rabbit faces left while playing pale round bagpipes, with a short pipe on the left and a very long gold pipe extending right.
-- [rabbit-lute-player](webp/rabbit-lute-player.webp) — A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.
+- [donkey-rooster-lute-player](webp/donkey-rooster-lute-player.webp) — A half-donkey, half-rooster hybrid facing right wears an orange tunic and black waist pouch, with a gray donkey head, gold rooster legs, and a green feathered tail, playing a gold lute.
 - [weird-dog](webp/weird-dog.webp) — A seated shaggy dog-like creature has a human-like bearded face looking toward the viewer, dark paws, and a long curled tail.
 - [white-animal-bagpiper](webp/white-animal-bagpiper.webp) — A seated pale animal-like creature with rounded ears, a long curled tail, and hand-like forelimbs faces the viewer while playing gold bagpipes.
 - [winged-rabbit](webp/winged-rabbit.webp) — A blue-gray rabbit-like hybrid faces right with large brown feathered wings, a long feathered tail extending left, and clawed feet.
@@ -231,7 +231,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 | <img src="webp/128/musician-r3-c3-lute-player.webp" width="100" alt="musician-r3-c3-lute-player"> | [musician-r3-c3-lute-player](png/musician-r3-c3-lute-player.png) | [WebP](webp/musician-r3-c3-lute-player.webp) | 1024 × 1536 | [128](webp/128/musician-r3-c3-lute-player.webp) · [256](webp/256/musician-r3-c3-lute-player.webp) · [512](webp/512/musician-r3-c3-lute-player.webp) · [768](webp/768/musician-r3-c3-lute-player.webp) |
 | <img src="webp/128/musician-r3-c4-pipe-player.webp" width="100" alt="musician-r3-c4-pipe-player"> | [musician-r3-c4-pipe-player](png/musician-r3-c4-pipe-player.png) | [WebP](webp/musician-r3-c4-pipe-player.webp) | 1143 × 1376 | [128](webp/128/musician-r3-c4-pipe-player.webp) · [256](webp/256/musician-r3-c4-pipe-player.webp) · [512](webp/512/musician-r3-c4-pipe-player.webp) · [768](webp/768/musician-r3-c4-pipe-player.webp) |
 | <img src="webp/128/rabbit-bagpiper.webp" width="100" alt="rabbit-bagpiper"> | [rabbit-bagpiper](png/rabbit-bagpiper.png) | [WebP](webp/rabbit-bagpiper.webp) | 1484 × 1060 | [128](webp/128/rabbit-bagpiper.webp) · [256](webp/256/rabbit-bagpiper.webp) · [512](webp/512/rabbit-bagpiper.webp) · [768](webp/768/rabbit-bagpiper.webp) |
-| <img src="webp/128/rabbit-lute-player.webp" width="100" alt="rabbit-lute-player"> | [rabbit-lute-player](png/rabbit-lute-player.png) | [WebP](webp/rabbit-lute-player.webp) | 1121 × 1403 | [128](webp/128/rabbit-lute-player.webp) · [256](webp/256/rabbit-lute-player.webp) · [512](webp/512/rabbit-lute-player.webp) · [768](webp/768/rabbit-lute-player.webp) |
+| <img src="webp/128/donkey-rooster-lute-player.webp" width="100" alt="donkey-rooster-lute-player"> | [donkey-rooster-lute-player](png/donkey-rooster-lute-player.png) | [WebP](webp/donkey-rooster-lute-player.webp) | 1121 × 1403 | [128](webp/128/donkey-rooster-lute-player.webp) · [256](webp/256/donkey-rooster-lute-player.webp) · [512](webp/512/donkey-rooster-lute-player.webp) · [768](webp/768/donkey-rooster-lute-player.webp) |
 | <img src="webp/128/seated-rabbit.webp" width="100" alt="seated-rabbit"> | [seated-rabbit](png/seated-rabbit.png) | [WebP](webp/seated-rabbit.webp) | 1295 × 1214 | [128](webp/128/seated-rabbit.webp) · [256](webp/256/seated-rabbit.webp) · [512](webp/512/seated-rabbit.webp) · [768](webp/768/seated-rabbit.webp) |
 | <img src="webp/128/snail.webp" width="100" alt="snail"> | [snail](png/snail.png) | [WebP](webp/snail.webp) | 1774 × 887 | [128](webp/128/snail.webp) · [256](webp/256/snail.webp) · [512](webp/512/snail.webp) · [768](webp/768/snail.webp) |
 | <img src="webp/128/weird-dog.webp" width="100" alt="weird-dog"> | [weird-dog](png/weird-dog.png) | [WebP](webp/weird-dog.webp) | 1385 × 1136 | [128](webp/128/weird-dog.webp) · [256](webp/256/weird-dog.webp) · [512](webp/512/weird-dog.webp) · [768](webp/768/weird-dog.webp) |

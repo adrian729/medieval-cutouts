@@ -1723,9 +1723,9 @@
     "composition": "single-figure"
   },
   {
-    "name": "rabbit-lute-player",
-    "png": "png/rabbit-lute-player.png",
-    "webp": "webp/rabbit-lute-player.webp",
+    "name": "donkey-rooster-lute-player",
+    "png": "png/donkey-rooster-lute-player.png",
+    "webp": "webp/donkey-rooster-lute-player.webp",
     "width": 1121,
     "height": 1403,
     "png_bytes": 1318222,
@@ -1735,8 +1735,8 @@
         "max_dimension": 128,
         "width": 102,
         "height": 128,
-        "png": "png/128/rabbit-lute-player.png",
-        "webp": "webp/128/rabbit-lute-player.webp",
+        "png": "png/128/donkey-rooster-lute-player.png",
+        "webp": "webp/128/donkey-rooster-lute-player.webp",
         "png_bytes": 17363,
         "webp_bytes": 14850
       },
@@ -1744,8 +1744,8 @@
         "max_dimension": 256,
         "width": 205,
         "height": 256,
-        "png": "png/256/rabbit-lute-player.png",
-        "webp": "webp/256/rabbit-lute-player.webp",
+        "png": "png/256/donkey-rooster-lute-player.png",
+        "webp": "webp/256/donkey-rooster-lute-player.webp",
         "png_bytes": 59977,
         "webp_bytes": 46886
       },
@@ -1753,8 +1753,8 @@
         "max_dimension": 512,
         "width": 409,
         "height": 512,
-        "png": "png/512/rabbit-lute-player.png",
-        "webp": "webp/512/rabbit-lute-player.webp",
+        "png": "png/512/donkey-rooster-lute-player.png",
+        "webp": "webp/512/donkey-rooster-lute-player.webp",
         "png_bytes": 210236,
         "webp_bytes": 159372
       },
@@ -1762,13 +1762,13 @@
         "max_dimension": 768,
         "width": 614,
         "height": 768,
-        "png": "png/768/rabbit-lute-player.png",
-        "webp": "webp/768/rabbit-lute-player.webp",
+        "png": "png/768/donkey-rooster-lute-player.png",
+        "webp": "webp/768/donkey-rooster-lute-player.webp",
         "png_bytes": 441938,
         "webp_bytes": 329930
       }
     ],
-    "description": "A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.",
+    "description": "A half-donkey, half-rooster hybrid facing right wears an orange tunic and black waist pouch, with a gray donkey head, gold rooster legs, and a green feathered tail, playing a gold lute.",
     "categories": [
       "animals",
       "hybrids",
@@ -1776,8 +1776,9 @@
       "music"
     ],
     "subjects": [
-      "rabbit",
-      "string-instrument"
+      "donkey",
+      "rooster",
+      "lute"
     ],
     "facing": "right",
     "colors": [
@@ -1835,7 +1836,7 @@
         "webp_bytes": 342502
       }
     ],
-    "description": "A seated cream-colored rabbit faces right with tall ears, a half-closed eye, blue-green hindquarters and legs, and a thick black outline.",
+    "description": "A tired-looking seated cream-colored rabbit faces right with tall ears, a half-closed eye, blue-green hindquarters and legs, and a thick black outline.",
     "categories": [
       "animals"
     ],
