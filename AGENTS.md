@@ -16,6 +16,8 @@ This is `adrian729/medieval-cutouts`, a public collection of medieval manuscript
 | `scripts/generate_sizes.py` | Generates and verifies smaller PNG/WebP pairs from cataloged originals. |
 | `scripts/update_category_index.py` | Validates metadata and paths; generates the README category index. |
 | `requirements.txt` | Pillow dependency for image conversion and resizing. |
+| `sources/` | Retained supplied originals for documented corrections; reference material, not cutouts. |
+| `EXTRACTION-PROMPTS.json` | Recorded correction prompts and methods, with retained source paths. |
 | `AGENTS.md` | Canonical agent instructions; edit this file when conventions change. |
 | `CLAUDE.md` | Imports this guide; do not duplicate the instructions there. |
 
@@ -47,7 +49,7 @@ If changing category or color vocabulary, update `SELECTION.md` and the constant
 1. Inspect the supplied illustration and prepare the requested transparent cutout, or preserve the supplied scene unchanged when requested. Choose a unique, accurate name and save the original as `png/<name>.png`; do not overwrite an unrelated asset.
 2. Create `webp/<name>.webp` from that PNG with Pillow, using RGBA pixels and `format='WEBP', lossless=True, method=6, exact=True`. Verify dimensions, alpha, and visible pixels against the PNG. The existing `verify_pair` function in `scripts/generate_sizes.py` can perform this check.
 3. Append a complete catalog entry with measured original dimensions and file byte sizes, the six selection fields, and an initially empty `variants` array. **The resize generator reads the catalog; it does not discover new PNGs automatically.**
-4. Run `python3 scripts/generate_sizes.py`. It fills `variants` and validates generated PNG/WebP pairs. It currently processes all cataloged images, so review any unrelated changes rather than blindly staging them.
+4. Run `python3 scripts/generate_sizes.py --name <name>`. It fills `variants` and validates generated PNG/WebP pairs for that image. Without `--name`, it processes all cataloged images. If a corrected master is smaller, obsolete variants at or above its size are removed. Review changes rather than blindly staging them.
 5. Add a row to the README's `## Images` gallery, matching its existing columns: preview, original PNG, original WebP, original dimensions, and links to available smaller WebPs. Choose an available small preview; do not link to skipped variants. Update the collection count in the README introduction.
 6. Run `python3 scripts/update_category_index.py` to refresh categories, then the checks below. Inspect the new image on light and dark backgrounds and at a small display size.
 
@@ -66,6 +68,7 @@ Confirmed identifications to preserve:
 - `fish-with-arms`: a fish with raised human arms.
 - `donkey-rooster-lute-player`: a half-donkey, half-rooster hybrid playing a lute.
 - `seated-rabbit`: its description includes its tired-looking expression and half-closed eye.
+- `creature-in-gold-shape`: preserve the large pale curved body inside the gold form as opaque artwork. It is not background. Its supplied original is retained in `sources/`; the corrected extraction is capped at the source's 650px longest edge.
 
 ## Setup and validation
 

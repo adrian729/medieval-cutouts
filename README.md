@@ -8,6 +8,8 @@ The twelve musicians from the three-row, four-column illustration use `r1-c1` th
 
 Cutouts were prepared from supplied illustrations using image generation and background extraction. WebP conversion is lossless; visible pixels and alpha channels were checked against the PNG originals.
 
+The supplied original for [`creature-in-gold-shape`](png/creature-in-gold-shape.png) is retained in [`sources/`](sources/). Its corrected extraction preserves the pale curved body that was previously mistaken for background, and is capped at the source's 650px longest edge. Image generation can reinterpret fine details; this is not a pixel-exact historical extraction. The correction prompt is recorded in [EXTRACTION-PROMPTS.json](EXTRACTION-PROMPTS.json).
+
 For adding images or making changes, follow [the repository guide](AGENTS.md). `CLAUDE.md` imports it so agent instructions stay in one place.
 
 ## Smaller sizes
@@ -212,7 +214,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [animal-choir-landscape](webp/animal-choir-landscape.webp) — A herd of cattle and a small hoofed animal face left toward a wooden music stand with an open score, with two small birds flying above and a narrow greenish ground strip beneath the full group.
 - [rabbit-reading-book](webp/rabbit-reading-book.webp) — A brown rabbit with tall ears and a wide white eye leans left over an open pale book, with a paw resting on the marked pages.
 - [cat-reading-book](webp/cat-reading-book.webp) — A seated blue-gray cat with a long striped tail and thin whiskers tilts its head up-right beside an open pale book, with a paw on the pages.
-- [creature-in-gold-shape](webp/creature-in-gold-shape.webp) — A pale grotesque creature with a round face, dark mouthpiece-like object, raised arm, and curling appendages sits within a large curved gold form with a pointed upper-right extension.
+- [creature-in-gold-shape](webp/creature-in-gold-shape.webp) — A pale grotesque creature with a round face, dark mouthpiece-like object, raised arm, large curved pale body, and curling appendages sits within a curved gold form with a pointed upper-right extension.
 
 </details>
 
@@ -268,6 +270,6 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 | <img src="webp/128/animal-choir-landscape.webp" width="100" alt="animal-choir-landscape"> | [animal-choir-landscape](png/animal-choir-landscape.png) | [WebP](webp/animal-choir-landscape.webp) | 2135 × 737 | [128](webp/128/animal-choir-landscape.webp) · [256](webp/256/animal-choir-landscape.webp) · [512](webp/512/animal-choir-landscape.webp) · [768](webp/768/animal-choir-landscape.webp) |
 | <img src="webp/128/rabbit-reading-book.webp" width="100" alt="rabbit-reading-book"> | [rabbit-reading-book](png/rabbit-reading-book.png) | [WebP](webp/rabbit-reading-book.webp) | 1500 × 1049 | [128](webp/128/rabbit-reading-book.webp) · [256](webp/256/rabbit-reading-book.webp) · [512](webp/512/rabbit-reading-book.webp) · [768](webp/768/rabbit-reading-book.webp) |
 | <img src="webp/128/cat-reading-book.webp" width="100" alt="cat-reading-book"> | [cat-reading-book](png/cat-reading-book.png) | [WebP](webp/cat-reading-book.webp) | 1254 × 1254 | [128](webp/128/cat-reading-book.webp) · [256](webp/256/cat-reading-book.webp) · [512](webp/512/cat-reading-book.webp) · [768](webp/768/cat-reading-book.webp) |
-| <img src="webp/128/creature-in-gold-shape.webp" width="100" alt="creature-in-gold-shape"> | [creature-in-gold-shape](png/creature-in-gold-shape.png) | [WebP](webp/creature-in-gold-shape.webp) | 1167 × 1348 | [128](webp/128/creature-in-gold-shape.webp) · [256](webp/256/creature-in-gold-shape.webp) · [512](webp/512/creature-in-gold-shape.webp) · [768](webp/768/creature-in-gold-shape.webp) |
+| <img src="webp/128/creature-in-gold-shape.webp" width="100" alt="creature-in-gold-shape"> | [creature-in-gold-shape](png/creature-in-gold-shape.png) | [WebP](webp/creature-in-gold-shape.webp) | 563 × 650 | [128](webp/128/creature-in-gold-shape.webp) · [256](webp/256/creature-in-gold-shape.webp) · [512](webp/512/creature-in-gold-shape.webp) |
 | <img src="webp/128/funny-faced-lying-cat.webp" width="100" alt="funny-faced-lying-cat"> | [funny-faced-lying-cat](png/funny-faced-lying-cat.png) | [WebP](webp/funny-faced-lying-cat.webp) | 1448 × 1086 | [128](webp/128/funny-faced-lying-cat.webp) · [256](webp/256/funny-faced-lying-cat.webp) · [512](webp/512/funny-faced-lying-cat.webp) · [768](webp/768/funny-faced-lying-cat.webp) |
 | <img src="webp/128/hooded-harp-player.webp" width="100" alt="hooded-harp-player"> | [hooded-harp-player](png/hooded-harp-player.png) | [WebP](webp/hooded-harp-player.webp) | 1089 × 1444 | [128](webp/128/hooded-harp-player.webp) · [256](webp/256/hooded-harp-player.webp) · [512](webp/512/hooded-harp-player.webp) · [768](webp/768/hooded-harp-player.webp) |

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build downscaled PNG/WebP variants, preserving original alpha."""
 
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -29,14 +30,31 @@ def verify_pair(expected, png, webp):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--name', action='append', help='Only regenerate this cataloged image; repeat for multiple names.')
+    args = parser.parse_args()
     originals = list((ROOT / 'png').glob('*.png')) + list((ROOT / 'webp').glob('*.webp'))
     hashes = {path: digest(path) for path in originals}
     catalog = json.loads((ROOT / 'images.json').read_text())
+    selected = set(args.name or (item['name'] for item in catalog))
+    unknown = selected - {item['name'] for item in catalog}
+    if unknown:
+        parser.error('Unknown image names: ' + ', '.join(sorted(unknown)))
     count = 0
     for item in catalog:
+        if item['name'] not in selected:
+            continue
         with Image.open(ROOT / item['png']) as image:
             original = image.convert('RGBA')
         assert original.size == (item['width'], item['height']), item['name']
+        # A corrected master may be smaller: remove obsolete exports of this image.
+        for variant in item.get('variants', []):
+            limit = variant['max_dimension']
+            if limit >= max(original.size):
+                for fmt in ('png', 'webp'):
+                    stale = ROOT / variant[fmt]
+                    assert stale == ROOT / fmt / str(limit) / f"{item['name']}.{fmt}"
+                    stale.unlink(missing_ok=True)
         variants = []
         for limit in SIZES:
             # Each variant starts from the original. Never enlarge a smaller image.
@@ -71,6 +89,8 @@ def main():
     (ROOT / 'images.json').write_text(json.dumps(catalog, indent=2) + '\n')
     print(f'Generated and verified {count} PNG/WebP pairs ({count * 2} files).')
     print(f'All {len(hashes)} original files remain byte-for-byte unchanged.')
+    if 'flying-pig' not in selected:
+        return
     pig = next(item for item in catalog if item['name'] == 'flying-pig')
     for variant in pig['variants']:
         print(f"Flying pig {variant['max_dimension']}px WebP: {variant['webp_bytes']:,} bytes (original: {pig['webp_bytes']:,})")

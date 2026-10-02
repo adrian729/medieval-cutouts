@@ -2376,10 +2376,10 @@
     "name": "creature-in-gold-shape",
     "png": "png/creature-in-gold-shape.png",
     "webp": "webp/creature-in-gold-shape.webp",
-    "width": 1167,
-    "height": 1348,
-    "png_bytes": 1752682,
-    "webp_bytes": 1216978,
+    "width": 563,
+    "height": 650,
+    "png_bytes": 500651,
+    "webp_bytes": 351630,
     "variants": [
       {
         "max_dimension": 128,
@@ -2387,8 +2387,8 @@
         "height": 128,
         "png": "png/128/creature-in-gold-shape.png",
         "webp": "webp/128/creature-in-gold-shape.webp",
-        "png_bytes": 23726,
-        "webp_bytes": 18770
+        "png_bytes": 25060,
+        "webp_bytes": 18036
       },
       {
         "max_dimension": 256,
@@ -2396,8 +2396,8 @@
         "height": 256,
         "png": "png/256/creature-in-gold-shape.png",
         "webp": "webp/256/creature-in-gold-shape.webp",
-        "png_bytes": 81258,
-        "webp_bytes": 57408
+        "png_bytes": 89042,
+        "webp_bytes": 62038
       },
       {
         "max_dimension": 512,
@@ -2405,20 +2405,11 @@
         "height": 512,
         "png": "png/512/creature-in-gold-shape.png",
         "webp": "webp/512/creature-in-gold-shape.webp",
-        "png_bytes": 286865,
-        "webp_bytes": 202584
-      },
-      {
-        "max_dimension": 768,
-        "width": 665,
-        "height": 768,
-        "png": "png/768/creature-in-gold-shape.png",
-        "webp": "webp/768/creature-in-gold-shape.webp",
-        "png_bytes": 612480,
-        "webp_bytes": 432184
+        "png_bytes": 323759,
+        "webp_bytes": 227132
       }
     ],
-    "description": "A pale grotesque creature with a round face, dark mouthpiece-like object, raised arm, and curling appendages sits within a large curved gold form with a pointed upper-right extension.",
+    "description": "A pale grotesque creature with a round face, dark mouthpiece-like object, raised arm, large curved pale body, and curling appendages sits within a curved gold form with a pointed upper-right extension.",
     "categories": [
       "fantasy"
     ],

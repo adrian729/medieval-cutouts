@@ -1,0 +1,9 @@
+[
+  {
+    "id": "creature-in-gold-shape",
+    "date": "2026-10-02",
+    "mode": "built-in imagegen",
+    "source": "sources/creature-in-gold-shape.png",
+    "prompt": "Use case: background-extraction. Asset: corrected transparent manuscript cutout. Input image is the ORIGINAL artwork; extract it faithfully, not a redesign. Remove only the rectangular paper sheet/background and its edge. Keep the ENTIRE curved gold form with its pointed upper-right extension, the ENTIRE pale grotesque creature, all original black linework and the dark mouthpiece-like shape. CRITICAL: the large pale oval/curved area inside the gold shape, behind and around the creature's head, is the creature's body/back with visible hairs and is part of the illustration, NOT background. Preserve it as opaque pale ivory, including the pale long curved band running down and left from behind the head. Preserve the raised arm, original fingers, small lower limb, and the hand at the right. Do not cut away pale body areas just because they match the paper color. Keep original face, proportions, yellow/ivory colors, worn texture, and every existing outline. Do not invent new eyes, fins, limbs, fur, or strokes. Transparent outside the complete outer silhouette; transparent only in definite open gaps between separate elements, while the illustrated pale interior body stays opaque. Entire illustration visible with a small transparent margin, no clipping. Flat original historical drawing, no new paper rectangle, no shadows, no checkerboard."
+  }
+]
