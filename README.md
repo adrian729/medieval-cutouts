@@ -2,7 +2,7 @@
 
 33 medieval manuscript-style figures and musicians, each available as a transparent PNG and a lossless WebP.
 
-PNG originals are in [`png/`](png/); matching WebP versions are in [`webp/`](webp/). Both formats retain the same dimensions and transparency. [`images.json`](images.json) lists original files and every smaller variant, with exact paths, dimensions, and file sizes.
+PNG originals are in [`png/`](png/); matching WebP versions are in [`webp/`](webp/). Both formats retain the same dimensions and transparency. [`images.json`](images.json) lists original files and every smaller variant, with exact paths, dimensions, and file sizes. Each entry also has a description, categories, subjects, facing, colors, and composition to help people and LLMs choose an image. See [the selection guide](SELECTION.md) or [browse by category](#browse-by-category).
 
 The twelve musicians from the three-row, four-column illustration use `r1-c1` through `r3-c4` in their filenames.
 
@@ -56,6 +56,149 @@ python3 scripts/generate_sizes.py
 ```
 
 The script verifies dimensions, transparency, matching visible PNG/WebP pixels, and that every original remains byte-for-byte unchanged. See [Pillow's thumbnail documentation](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.thumbnail) for the downscaling operation.
+
+<!-- category-index:start -->
+## Browse by category
+
+Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and size selection.
+
+| Category | Images |
+| --- | --- |
+| [Animals](#animals) | 19 |
+| [Humans](#humans) | 14 |
+| [Hybrids](#hybrids) | 7 |
+| [Music](#music) | 24 |
+| [Fantasy](#fantasy) | 14 |
+| [Royalty](#royalty) | 1 |
+
+### Animals
+
+<details>
+<summary>Show 19 images</summary>
+
+- [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
+- [blue-animal-horn-player](webp/blue-animal-horn-player.webp) — An upright blue-gray animal-like creature with pointed ears and a long snout plays a curling gold horn facing right.
+- [bunny-harp](webp/bunny-harp.webp) — An upright brown rabbit facing right plays an orange and gold harp.
+- [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
+- [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
+- [crowned-cat](webp/crowned-cat.webp) — A seated cream-colored cat with a long striped tail wears an ornate gold crown and shows a red tongue, looking mostly toward the viewer.
+- [curled-cat](webp/curled-cat.webp) — A brown and gold cat curls into a compact rounded shape with its tail over its body and its face tilted toward the viewer.
+- [donkey-organist](webp/donkey-organist.webp) — A seated gray donkey facing right plays a tall gold pipe organ positioned to its right.
+- [dragon-lute-player](webp/dragon-lute-player.webp) — A gold reptile-like dragon in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.
+- [fish-with-legs](webp/fish-with-legs.webp) — A blue-green fish faces right with two pale human-like limbs raised above its back and red cloth between them.
+- [flying-pig](webp/flying-pig.webp) — A pink pig facing right has large gold feathered wings, a curled tail, and dangling legs.
+- [frog](webp/frog.webp) — A broad green frog with dark spots crouches facing left.
+- [rabbit-bagpiper](webp/rabbit-bagpiper.webp) — An upright gray rabbit faces left while playing pale round bagpipes, with a short pipe on the left and a very long gold pipe extending right.
+- [rabbit-lute-player](webp/rabbit-lute-player.webp) — A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.
+- [seated-rabbit](webp/seated-rabbit.webp) — A seated cream-colored rabbit faces right with tall ears, a half-closed eye, blue-green hindquarters and legs, and a thick black outline.
+- [snail](webp/snail.webp) — An orange-brown snail faces right with long feelers and a large brown spiral shell.
+- [weird-dog](webp/weird-dog.webp) — A seated shaggy dog-like creature has a human-like bearded face looking toward the viewer, dark paws, and a long curled tail.
+- [white-animal-bagpiper](webp/white-animal-bagpiper.webp) — A seated pale animal-like creature with rounded ears, a long curled tail, and hand-like forelimbs faces the viewer while playing gold bagpipes.
+- [winged-rabbit](webp/winged-rabbit.webp) — A blue-gray rabbit-like hybrid faces right with large brown feathered wings, a long feathered tail extending left, and clawed feet.
+
+</details>
+
+### Humans
+
+<details>
+<summary>Show 14 images</summary>
+
+- [anafiles](webp/anafiles.webp) — Two seated human musicians facing left play long gold trumpets with red pennants inside a blue rectangular manuscript frame.
+- [hooded-bagpiper](webp/hooded-bagpiper.webp) — A standing human facing right wears a pointed red-orange hood and tunic with green lining and black shoes, playing pale bagpipes with a long pipe extending left.
+- [musician-r1-c1-organ-player](webp/musician-r1-c1-organ-player.webp) — A seated human facing right wears a patterned cream cap, red sleeves, and a brown robe, holding small vertical organ pipes and gesturing right.
+- [musician-r1-c2-shawm-player](webp/musician-r1-c2-shawm-player.webp) — A standing human facing right wears a cream cap, dark blue tunic, and red stockings, playing a long straight gold shawm extending right.
+- [musician-r1-c3-horn-player](webp/musician-r1-c3-horn-player.webp) — A seated human facing right wears a pointed red and blue cap and a red-brown tunic, playing a pale curved horn pointing upward to the right.
+- [musician-r1-c4-horn-player](webp/musician-r1-c4-horn-player.webp) — A seated human facing left wears a cream cap and long red robe, playing a pale curved horn extending left.
+- [musician-r2-c1-bagpiper](webp/musician-r2-c1-bagpiper.webp) — A seated human facing right wears a dark blue cape with gold trim, red sleeves, and a cream cap and collar, playing pale bagpipes with a curved pipe extending right.
+- [musician-r2-c2-bagpiper](webp/musician-r2-c2-bagpiper.webp) — A standing human facing right wears a green tunic, red sleeves, blue stockings, and a cream cap, playing pale gold bagpipes held against the chest.
+- [musician-r2-c3-horn-player](webp/musician-r2-c3-horn-player.webp) — A seated human facing right wears a dark blue robe and cream cap, playing a large gold-green horn that curves upward to the right.
+- [musician-r2-c4-psaltery-player](webp/musician-r2-c4-psaltery-player.webp) — A seated human in a dark robe and patterned cap looks down toward the left while playing a large gold psaltery held diagonally across the lap.
+- [musician-r3-c1-bagpiper](webp/musician-r3-c1-bagpiper.webp) — A standing human facing right wears a green tunic, red sleeves and stockings, and a cream cap, playing a red patterned bagpipe with long green pipes extending left and right.
+- [musician-r3-c2-lute-player](webp/musician-r3-c2-lute-player.webp) — A standing human wears a tilted green cap, red striped tunic, and long green robe, looking down toward the right while playing a pale lute extending right.
+- [musician-r3-c3-lute-player](webp/musician-r3-c3-lute-player.webp) — A standing brown-haired human wears a red jacket, dark blue dotted skirt, and red stockings, looking down toward the left while playing a pale lute with its neck pointing up-right.
+- [musician-r3-c4-pipe-player](webp/musician-r3-c4-pipe-player.webp) — A seated curly-haired human facing right wears a pale blue and cream striped sleeveless outfit and red stockings, playing a short straight gold pipe.
+
+</details>
+
+### Hybrids
+
+<details>
+<summary>Show 7 images</summary>
+
+- [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
+- [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
+- [fish-with-legs](webp/fish-with-legs.webp) — A blue-green fish faces right with two pale human-like limbs raised above its back and red cloth between them.
+- [flying-pig](webp/flying-pig.webp) — A pink pig facing right has large gold feathered wings, a curled tail, and dangling legs.
+- [rabbit-lute-player](webp/rabbit-lute-player.webp) — A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.
+- [weird-dog](webp/weird-dog.webp) — A seated shaggy dog-like creature has a human-like bearded face looking toward the viewer, dark paws, and a long curled tail.
+- [winged-rabbit](webp/winged-rabbit.webp) — A blue-gray rabbit-like hybrid faces right with large brown feathered wings, a long feathered tail extending left, and clawed feet.
+
+</details>
+
+### Music
+
+<details>
+<summary>Show 24 images</summary>
+
+- [anafiles](webp/anafiles.webp) — Two seated human musicians facing left play long gold trumpets with red pennants inside a blue rectangular manuscript frame.
+- [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
+- [blue-animal-horn-player](webp/blue-animal-horn-player.webp) — An upright blue-gray animal-like creature with pointed ears and a long snout plays a curling gold horn facing right.
+- [bunny-harp](webp/bunny-harp.webp) — An upright brown rabbit facing right plays an orange and gold harp.
+- [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
+- [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
+- [donkey-organist](webp/donkey-organist.webp) — A seated gray donkey facing right plays a tall gold pipe organ positioned to its right.
+- [dragon-lute-player](webp/dragon-lute-player.webp) — A gold reptile-like dragon in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.
+- [hooded-bagpiper](webp/hooded-bagpiper.webp) — A standing human facing right wears a pointed red-orange hood and tunic with green lining and black shoes, playing pale bagpipes with a long pipe extending left.
+- [musician-r1-c1-organ-player](webp/musician-r1-c1-organ-player.webp) — A seated human facing right wears a patterned cream cap, red sleeves, and a brown robe, holding small vertical organ pipes and gesturing right.
+- [musician-r1-c2-shawm-player](webp/musician-r1-c2-shawm-player.webp) — A standing human facing right wears a cream cap, dark blue tunic, and red stockings, playing a long straight gold shawm extending right.
+- [musician-r1-c3-horn-player](webp/musician-r1-c3-horn-player.webp) — A seated human facing right wears a pointed red and blue cap and a red-brown tunic, playing a pale curved horn pointing upward to the right.
+- [musician-r1-c4-horn-player](webp/musician-r1-c4-horn-player.webp) — A seated human facing left wears a cream cap and long red robe, playing a pale curved horn extending left.
+- [musician-r2-c1-bagpiper](webp/musician-r2-c1-bagpiper.webp) — A seated human facing right wears a dark blue cape with gold trim, red sleeves, and a cream cap and collar, playing pale bagpipes with a curved pipe extending right.
+- [musician-r2-c2-bagpiper](webp/musician-r2-c2-bagpiper.webp) — A standing human facing right wears a green tunic, red sleeves, blue stockings, and a cream cap, playing pale gold bagpipes held against the chest.
+- [musician-r2-c3-horn-player](webp/musician-r2-c3-horn-player.webp) — A seated human facing right wears a dark blue robe and cream cap, playing a large gold-green horn that curves upward to the right.
+- [musician-r2-c4-psaltery-player](webp/musician-r2-c4-psaltery-player.webp) — A seated human in a dark robe and patterned cap looks down toward the left while playing a large gold psaltery held diagonally across the lap.
+- [musician-r3-c1-bagpiper](webp/musician-r3-c1-bagpiper.webp) — A standing human facing right wears a green tunic, red sleeves and stockings, and a cream cap, playing a red patterned bagpipe with long green pipes extending left and right.
+- [musician-r3-c2-lute-player](webp/musician-r3-c2-lute-player.webp) — A standing human wears a tilted green cap, red striped tunic, and long green robe, looking down toward the right while playing a pale lute extending right.
+- [musician-r3-c3-lute-player](webp/musician-r3-c3-lute-player.webp) — A standing brown-haired human wears a red jacket, dark blue dotted skirt, and red stockings, looking down toward the left while playing a pale lute with its neck pointing up-right.
+- [musician-r3-c4-pipe-player](webp/musician-r3-c4-pipe-player.webp) — A seated curly-haired human facing right wears a pale blue and cream striped sleeveless outfit and red stockings, playing a short straight gold pipe.
+- [rabbit-bagpiper](webp/rabbit-bagpiper.webp) — An upright gray rabbit faces left while playing pale round bagpipes, with a short pipe on the left and a very long gold pipe extending right.
+- [rabbit-lute-player](webp/rabbit-lute-player.webp) — A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.
+- [white-animal-bagpiper](webp/white-animal-bagpiper.webp) — A seated pale animal-like creature with rounded ears, a long curled tail, and hand-like forelimbs faces the viewer while playing gold bagpipes.
+
+</details>
+
+### Fantasy
+
+<details>
+<summary>Show 14 images</summary>
+
+- [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
+- [blue-animal-horn-player](webp/blue-animal-horn-player.webp) — An upright blue-gray animal-like creature with pointed ears and a long snout plays a curling gold horn facing right.
+- [bunny-harp](webp/bunny-harp.webp) — An upright brown rabbit facing right plays an orange and gold harp.
+- [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
+- [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
+- [donkey-organist](webp/donkey-organist.webp) — A seated gray donkey facing right plays a tall gold pipe organ positioned to its right.
+- [dragon-lute-player](webp/dragon-lute-player.webp) — A gold reptile-like dragon in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.
+- [fish-with-legs](webp/fish-with-legs.webp) — A blue-green fish faces right with two pale human-like limbs raised above its back and red cloth between them.
+- [flying-pig](webp/flying-pig.webp) — A pink pig facing right has large gold feathered wings, a curled tail, and dangling legs.
+- [rabbit-bagpiper](webp/rabbit-bagpiper.webp) — An upright gray rabbit faces left while playing pale round bagpipes, with a short pipe on the left and a very long gold pipe extending right.
+- [rabbit-lute-player](webp/rabbit-lute-player.webp) — A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.
+- [weird-dog](webp/weird-dog.webp) — A seated shaggy dog-like creature has a human-like bearded face looking toward the viewer, dark paws, and a long curled tail.
+- [white-animal-bagpiper](webp/white-animal-bagpiper.webp) — A seated pale animal-like creature with rounded ears, a long curled tail, and hand-like forelimbs faces the viewer while playing gold bagpipes.
+- [winged-rabbit](webp/winged-rabbit.webp) — A blue-gray rabbit-like hybrid faces right with large brown feathered wings, a long feathered tail extending left, and clawed feet.
+
+</details>
+
+### Royalty
+
+<details>
+<summary>Show 1 images</summary>
+
+- [crowned-cat](webp/crowned-cat.webp) — A seated cream-colored cat with a long striped tail wears an ornate gold crown and shows a red tongue, looking mostly toward the viewer.
+
+</details>
+
+<!-- category-index:end -->
 
 ## Images
 
