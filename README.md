@@ -77,7 +77,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 <summary>Show 19 images</summary>
 
 - [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
-- [blue-animal-horn-player](webp/blue-animal-horn-player.webp) — An upright blue-gray animal-like creature with pointed ears and a long snout plays a curling gold horn facing right.
+- [blue-animal-horn-player](webp/blue-animal-horn-player.webp) — An upright blue-gray boar plays a curling gold horn facing right.
 - [bunny-harp](webp/bunny-harp.webp) — An upright brown rabbit facing right plays an orange and gold harp.
 - [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
 - [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
@@ -142,7 +142,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 
 - [anafiles](webp/anafiles.webp) — Two seated human musicians facing left play long gold trumpets with red pennants inside a blue rectangular manuscript frame.
 - [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
-- [blue-animal-horn-player](webp/blue-animal-horn-player.webp) — An upright blue-gray animal-like creature with pointed ears and a long snout plays a curling gold horn facing right.
+- [blue-animal-horn-player](webp/blue-animal-horn-player.webp) — An upright blue-gray boar plays a curling gold horn facing right.
 - [bunny-harp](webp/bunny-harp.webp) — An upright brown rabbit facing right plays an orange and gold harp.
 - [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
 - [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
@@ -173,7 +173,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 <summary>Show 14 images</summary>
 
 - [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
-- [blue-animal-horn-player](webp/blue-animal-horn-player.webp) — An upright blue-gray animal-like creature with pointed ears and a long snout plays a curling gold horn facing right.
+- [blue-animal-horn-player](webp/blue-animal-horn-player.webp) — An upright blue-gray boar plays a curling gold horn facing right.
 - [bunny-harp](webp/bunny-harp.webp) — An upright brown rabbit facing right plays an orange and gold harp.
 - [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
 - [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
