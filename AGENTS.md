@@ -6,7 +6,7 @@ This is `adrian729/medieval-cutouts`, a public collection of medieval manuscript
 
 | Path | Purpose |
 | --- | --- |
-| `png/<name>.png` | Original transparent PNG, the source for all smaller versions. |
+| `png/<name>.png` | Original PNG (transparent cutout or preserved scene), the source for all smaller versions. |
 | `webp/<name>.webp` | Lossless WebP of the original, with matching dimensions and transparency. |
 | `png/{128,256,512,768}/<name>.png` | Smaller PNG versions; folder name is the maximum/longest edge. |
 | `webp/{128,256,512,768}/<name>.webp` | Matching smaller lossless WebPs. |
@@ -25,7 +25,7 @@ Work inside this repository. The parent workspace can contain source images, unr
 
 - Use descriptive lowercase hyphenated names, shared by the catalog `name` and every PNG/WebP filename.
 - Preserve original image bytes during metadata edits, renames, and resizing. Only replace or edit an original when the task calls for an image change.
-- Keep transparent backgrounds. Verify visible RGB pixels and alpha when converting PNG to lossless WebP; invisible RGB beneath fully transparent pixels need not match.
+- Keep cutout backgrounds transparent. When the user requests an intact scene, preserve its background and border, including an opaque original if supplied. Verify visible RGB pixels and alpha when converting PNG to lossless WebP; invisible RGB beneath fully transparent pixels need not match.
 - Generate smaller versions directly from the original PNG using Lanczos resampling. Preserve aspect ratio and alpha; never crop, stretch, or upscale as part of size generation.
 - Available size limits are 128, 256, 512, and 768 pixels. The generator skips a limit when the original's longest edge is already equal to or smaller than it. Missing variants in that case are intentional.
 - Never regenerate all image files for a description-only or filename-only change.
@@ -38,13 +38,13 @@ Work inside this repository. The parent workspace can contain source images, unr
 - `variants`, ordered by increasing `max_dimension`. Each variant has `max_dimension`, `width`, `height`, `png`, `webp`, `png_bytes`, and `webp_bytes`.
 - Exactly these six selection fields: `description`, `categories`, `subjects`, `facing`, `colors`, `composition`. Do not add instrument-specific fields or a new taxonomy without a requested schema change.
 
-Use [`SELECTION.md`](SELECTION.md) for allowed values and definitions. Categories overlap: `animals`, `humans`, `hybrids`, `music`, `fantasy`, and `royalty`. Specific instruments are ordinary subjects, such as `lute`, while `music` is their broad category. Reuse existing subject terms. Keep descriptions factual; qualify ambiguous creatures rather than confidently guessing a species. Inspect the actual cutout when adding visual metadata. Facing describes the head, not an instrument's direction.
+Use [`SELECTION.md`](SELECTION.md) for allowed values and definitions. Categories overlap: `animals`, `humans`, `hybrids`, `music`, `reading`, `fantasy`, and `royalty`. Specific instruments are ordinary subjects, such as `lute`, while `music` is their broad category. Reuse existing subject terms. Keep descriptions factual; qualify ambiguous creatures rather than confidently guessing a species. Inspect the actual cutout when adding visual metadata. Facing describes the head, not an instrument's direction.
 
 If changing category or color vocabulary, update `SELECTION.md` and the constants in `scripts/update_category_index.py` together. Preserve selection metadata when running or changing the resize generator.
 
 ## Adding an image
 
-1. Inspect the supplied illustration and prepare the requested transparent cutout. Choose a unique, accurate name and save the original as `png/<name>.png`; do not overwrite an unrelated asset.
+1. Inspect the supplied illustration and prepare the requested transparent cutout, or preserve the supplied scene unchanged when requested. Choose a unique, accurate name and save the original as `png/<name>.png`; do not overwrite an unrelated asset.
 2. Create `webp/<name>.webp` from that PNG with Pillow, using RGBA pixels and `format='WEBP', lossless=True, method=6, exact=True`. Verify dimensions, alpha, and visible pixels against the PNG. The existing `verify_pair` function in `scripts/generate_sizes.py` can perform this check.
 3. Append a complete catalog entry with measured original dimensions and file byte sizes, the six selection fields, and an initially empty `variants` array. **The resize generator reads the catalog; it does not discover new PNGs automatically.**
 4. Run `python3 scripts/generate_sizes.py`. It fills `variants` and validates generated PNG/WebP pairs. It currently processes all cataloged images, so review any unrelated changes rather than blindly staging them.

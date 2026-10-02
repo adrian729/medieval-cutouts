@@ -1,6 +1,6 @@
 # Medieval cutouts
 
-33 medieval manuscript-style figures and musicians, each available as a transparent PNG and a lossless WebP.
+40 medieval manuscript-style illustrations, each available as a PNG and a lossless WebP. Most are transparent cutouts; `animal-musicians-ensemble` preserves the supplied image exactly, including its background and border.
 
 PNG originals are in [`png/`](png/); matching WebP versions are in [`webp/`](webp/). Both formats retain the same dimensions and transparency. [`images.json`](images.json) lists original files and every smaller variant, with exact paths, dimensions, and file sizes. Each entry also has a description, categories, subjects, facing, colors, and composition to help people and LLMs choose an image. See [the selection guide](SELECTION.md) or [browse by category](#browse-by-category).
 
@@ -12,7 +12,7 @@ For adding images or making changes, follow [the repository guide](AGENTS.md). `
 
 ## Smaller sizes
 
-Every image has 128, 256, 512, and 768 pixel versions in both formats. The number is the **longest edge**, so a portrait image stays portrait and a landscape image stays landscape. Images are never cropped, stretched, or enlarged. Future source images smaller than a requested size are skipped for that size.
+Smaller versions use 128, 256, 512, and 768 pixel limits in both formats. The number is the **longest edge**, so a portrait image stays portrait and a landscape image stays landscape. Images are never cropped, stretched, or enlarged. A limit is skipped when the original is already that size or smaller; use the original instead. Check `images.json` for each image's available versions.
 
 | Longest edge | PNG folder | WebP folder | Example use |
 | --- | --- | --- | --- |
@@ -22,7 +22,7 @@ Every image has 128, 256, 512, and 768 pixel versions in both formats. The numbe
 | 768 px | [`png/768/`](png/768/) | [`webp/768/`](webp/768/) | Larger illustrations |
 | Original | [`png/`](png/) | [`webp/`](webp/) | Full resolution |
 
-Each smaller version is generated directly from the original PNG using Lanczos resampling, keeping transparent edges. PNG and WebP encoding is lossless after resizing. Originals and their URLs remain unchanged.
+Each smaller version is generated directly from the original PNG using Lanczos resampling, preserving its transparency or opaque background. PNG and WebP encoding is lossless after resizing. Originals and their URLs remain unchanged.
 
 ## Use in another project
 
@@ -66,17 +66,18 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 
 | Category | Images |
 | --- | --- |
-| [Animals](#animals) | 19 |
-| [Humans](#humans) | 14 |
+| [Animals](#animals) | 24 |
+| [Humans](#humans) | 15 |
 | [Hybrids](#hybrids) | 7 |
-| [Music](#music) | 24 |
-| [Fantasy](#fantasy) | 14 |
+| [Music](#music) | 27 |
+| [Reading](#reading) | 2 |
+| [Fantasy](#fantasy) | 19 |
 | [Royalty](#royalty) | 1 |
 
 ### Animals
 
 <details>
-<summary>Show 19 images</summary>
+<summary>Show 24 images</summary>
 
 - [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
 - [boar-lute-player](webp/boar-lute-player.webp) — An upright blue-gray boar plays a gold lute facing right.
@@ -97,13 +98,18 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [weird-dog](webp/weird-dog.webp) — A seated shaggy dog-like creature has a human-like bearded face looking toward the viewer, dark paws, and a long curled tail.
 - [white-animal-bagpiper](webp/white-animal-bagpiper.webp) — A seated pale animal-like creature with rounded ears, a long curled tail, and hand-like forelimbs faces the viewer while playing gold bagpipes.
 - [winged-rabbit](webp/winged-rabbit.webp) — A blue-gray rabbit-like hybrid faces right with large brown feathered wings, a long feathered tail extending left, and clawed feet.
+- [animal-musicians-ensemble](webp/animal-musicians-ensemble.webp) — A complete framed manuscript scene on green grass with a patterned blue, gold, and pink background: animals gather around an open score, a bowed string player, a donkey at a pipe organ, white geese, a red animal with bagpipes and a drum, a pale animal ringing bells, and a harp lying on the ground.
+- [animal-choir-landscape](webp/animal-choir-landscape.webp) — A herd of cattle and a small hoofed animal face left toward a wooden music stand with an open score, with two small birds flying above and a narrow greenish ground strip beneath the full group.
+- [rabbit-reading-book](webp/rabbit-reading-book.webp) — A brown rabbit with tall ears and a wide white eye leans left over an open pale book, with a paw resting on the marked pages.
+- [cat-reading-book](webp/cat-reading-book.webp) — A seated blue-gray cat with a long striped tail and thin whiskers tilts its head up-right beside an open pale book, with a paw on the pages.
+- [funny-faced-lying-cat](webp/funny-faced-lying-cat.webp) — A lying orange-brown tabby cat faces the viewer with tucked front paws, tall triangular ears, broad eyes, and a funny almost human-looking expression in a softly textured painting.
 
 </details>
 
 ### Humans
 
 <details>
-<summary>Show 14 images</summary>
+<summary>Show 15 images</summary>
 
 - [anafiles](webp/anafiles.webp) — Two seated human musicians facing left play long gold trumpets with red pennants inside a blue rectangular manuscript frame.
 - [hooded-bagpiper](webp/hooded-bagpiper.webp) — A standing human facing right wears a pointed red-orange hood and tunic with green lining and black shoes, playing pale bagpipes with a long pipe extending left.
@@ -119,6 +125,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [musician-r3-c2-lute-player](webp/musician-r3-c2-lute-player.webp) — A standing human wears a tilted green cap, red striped tunic, and long green robe, looking down toward the right while playing a pale lute extending right.
 - [musician-r3-c3-lute-player](webp/musician-r3-c3-lute-player.webp) — A standing brown-haired human wears a red jacket, dark blue dotted skirt, and red stockings, looking down toward the left while playing a pale lute with its neck pointing up-right.
 - [musician-r3-c4-pipe-player](webp/musician-r3-c4-pipe-player.webp) — A seated curly-haired human facing right wears a pale blue and cream striped sleeveless outfit and red stockings, playing a short straight gold pipe.
+- [hooded-harp-player](webp/hooded-harp-player.webp) — A standing human facing left wears a tall blue hood, gold tunic, black leggings, and black shoes, playing a large gold harp held to the right.
 
 </details>
 
@@ -140,7 +147,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 ### Music
 
 <details>
-<summary>Show 24 images</summary>
+<summary>Show 27 images</summary>
 
 - [anafiles](webp/anafiles.webp) — Two seated human musicians facing left play long gold trumpets with red pennants inside a blue rectangular manuscript frame.
 - [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
@@ -166,13 +173,26 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [rabbit-bagpiper](webp/rabbit-bagpiper.webp) — An upright gray rabbit faces left while playing pale round bagpipes, with a short pipe on the left and a very long gold pipe extending right.
 - [donkey-rooster-lute-player](webp/donkey-rooster-lute-player.webp) — A half-donkey, half-rooster hybrid facing right wears an orange tunic and black waist pouch, with a gray donkey head, gold rooster legs, and a green feathered tail, playing a gold lute.
 - [white-animal-bagpiper](webp/white-animal-bagpiper.webp) — A seated pale animal-like creature with rounded ears, a long curled tail, and hand-like forelimbs faces the viewer while playing gold bagpipes.
+- [animal-musicians-ensemble](webp/animal-musicians-ensemble.webp) — A complete framed manuscript scene on green grass with a patterned blue, gold, and pink background: animals gather around an open score, a bowed string player, a donkey at a pipe organ, white geese, a red animal with bagpipes and a drum, a pale animal ringing bells, and a harp lying on the ground.
+- [animal-choir-landscape](webp/animal-choir-landscape.webp) — A herd of cattle and a small hoofed animal face left toward a wooden music stand with an open score, with two small birds flying above and a narrow greenish ground strip beneath the full group.
+- [hooded-harp-player](webp/hooded-harp-player.webp) — A standing human facing left wears a tall blue hood, gold tunic, black leggings, and black shoes, playing a large gold harp held to the right.
+
+</details>
+
+### Reading
+
+<details>
+<summary>Show 2 images</summary>
+
+- [rabbit-reading-book](webp/rabbit-reading-book.webp) — A brown rabbit with tall ears and a wide white eye leans left over an open pale book, with a paw resting on the marked pages.
+- [cat-reading-book](webp/cat-reading-book.webp) — A seated blue-gray cat with a long striped tail and thin whiskers tilts its head up-right beside an open pale book, with a paw on the pages.
 
 </details>
 
 ### Fantasy
 
 <details>
-<summary>Show 14 images</summary>
+<summary>Show 19 images</summary>
 
 - [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
 - [boar-lute-player](webp/boar-lute-player.webp) — An upright blue-gray boar plays a gold lute facing right.
@@ -188,6 +208,11 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [weird-dog](webp/weird-dog.webp) — A seated shaggy dog-like creature has a human-like bearded face looking toward the viewer, dark paws, and a long curled tail.
 - [white-animal-bagpiper](webp/white-animal-bagpiper.webp) — A seated pale animal-like creature with rounded ears, a long curled tail, and hand-like forelimbs faces the viewer while playing gold bagpipes.
 - [winged-rabbit](webp/winged-rabbit.webp) — A blue-gray rabbit-like hybrid faces right with large brown feathered wings, a long feathered tail extending left, and clawed feet.
+- [animal-musicians-ensemble](webp/animal-musicians-ensemble.webp) — A complete framed manuscript scene on green grass with a patterned blue, gold, and pink background: animals gather around an open score, a bowed string player, a donkey at a pipe organ, white geese, a red animal with bagpipes and a drum, a pale animal ringing bells, and a harp lying on the ground.
+- [animal-choir-landscape](webp/animal-choir-landscape.webp) — A herd of cattle and a small hoofed animal face left toward a wooden music stand with an open score, with two small birds flying above and a narrow greenish ground strip beneath the full group.
+- [rabbit-reading-book](webp/rabbit-reading-book.webp) — A brown rabbit with tall ears and a wide white eye leans left over an open pale book, with a paw resting on the marked pages.
+- [cat-reading-book](webp/cat-reading-book.webp) — A seated blue-gray cat with a long striped tail and thin whiskers tilts its head up-right beside an open pale book, with a paw on the pages.
+- [creature-in-gold-shape](webp/creature-in-gold-shape.webp) — A pale grotesque creature with a round face, dark mouthpiece-like object, raised arm, and curling appendages sits within a large curved gold form with a pointed upper-right extension.
 
 </details>
 
@@ -239,3 +264,10 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 | <img src="webp/128/weird-dog.webp" width="100" alt="weird-dog"> | [weird-dog](png/weird-dog.png) | [WebP](webp/weird-dog.webp) | 1385 × 1136 | [128](webp/128/weird-dog.webp) · [256](webp/256/weird-dog.webp) · [512](webp/512/weird-dog.webp) · [768](webp/768/weird-dog.webp) |
 | <img src="webp/128/white-animal-bagpiper.webp" width="100" alt="white-animal-bagpiper"> | [white-animal-bagpiper](png/white-animal-bagpiper.png) | [WebP](webp/white-animal-bagpiper.webp) | 1213 × 1296 | [128](webp/128/white-animal-bagpiper.webp) · [256](webp/256/white-animal-bagpiper.webp) · [512](webp/512/white-animal-bagpiper.webp) · [768](webp/768/white-animal-bagpiper.webp) |
 | <img src="webp/128/winged-rabbit.webp" width="100" alt="winged-rabbit"> | [winged-rabbit](png/winged-rabbit.png) | [WebP](webp/winged-rabbit.webp) | 1360 × 1156 | [128](webp/128/winged-rabbit.webp) · [256](webp/256/winged-rabbit.webp) · [512](webp/512/winged-rabbit.webp) · [768](webp/768/winged-rabbit.webp) |
+| <img src="webp/128/animal-musicians-ensemble.webp" width="100" alt="animal-musicians-ensemble"> | [animal-musicians-ensemble](png/animal-musicians-ensemble.png) | [WebP](webp/animal-musicians-ensemble.webp) | 720 × 533 | [128](webp/128/animal-musicians-ensemble.webp) · [256](webp/256/animal-musicians-ensemble.webp) · [512](webp/512/animal-musicians-ensemble.webp) |
+| <img src="webp/128/animal-choir-landscape.webp" width="100" alt="animal-choir-landscape"> | [animal-choir-landscape](png/animal-choir-landscape.png) | [WebP](webp/animal-choir-landscape.webp) | 2135 × 737 | [128](webp/128/animal-choir-landscape.webp) · [256](webp/256/animal-choir-landscape.webp) · [512](webp/512/animal-choir-landscape.webp) · [768](webp/768/animal-choir-landscape.webp) |
+| <img src="webp/128/rabbit-reading-book.webp" width="100" alt="rabbit-reading-book"> | [rabbit-reading-book](png/rabbit-reading-book.png) | [WebP](webp/rabbit-reading-book.webp) | 1500 × 1049 | [128](webp/128/rabbit-reading-book.webp) · [256](webp/256/rabbit-reading-book.webp) · [512](webp/512/rabbit-reading-book.webp) · [768](webp/768/rabbit-reading-book.webp) |
+| <img src="webp/128/cat-reading-book.webp" width="100" alt="cat-reading-book"> | [cat-reading-book](png/cat-reading-book.png) | [WebP](webp/cat-reading-book.webp) | 1254 × 1254 | [128](webp/128/cat-reading-book.webp) · [256](webp/256/cat-reading-book.webp) · [512](webp/512/cat-reading-book.webp) · [768](webp/768/cat-reading-book.webp) |
+| <img src="webp/128/creature-in-gold-shape.webp" width="100" alt="creature-in-gold-shape"> | [creature-in-gold-shape](png/creature-in-gold-shape.png) | [WebP](webp/creature-in-gold-shape.webp) | 1167 × 1348 | [128](webp/128/creature-in-gold-shape.webp) · [256](webp/256/creature-in-gold-shape.webp) · [512](webp/512/creature-in-gold-shape.webp) · [768](webp/768/creature-in-gold-shape.webp) |
+| <img src="webp/128/funny-faced-lying-cat.webp" width="100" alt="funny-faced-lying-cat"> | [funny-faced-lying-cat](png/funny-faced-lying-cat.png) | [WebP](webp/funny-faced-lying-cat.webp) | 1448 × 1086 | [128](webp/128/funny-faced-lying-cat.webp) · [256](webp/256/funny-faced-lying-cat.webp) · [512](webp/512/funny-faced-lying-cat.webp) · [768](webp/768/funny-faced-lying-cat.webp) |
+| <img src="webp/128/hooded-harp-player.webp" width="100" alt="hooded-harp-player"> | [hooded-harp-player](png/hooded-harp-player.png) | [WebP](webp/hooded-harp-player.webp) | 1089 × 1444 | [128](webp/128/hooded-harp-player.webp) · [256](webp/256/hooded-harp-player.webp) · [512](webp/512/hooded-harp-player.webp) · [768](webp/768/hooded-harp-player.webp) |

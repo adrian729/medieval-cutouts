@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build transparent, downscaled PNG/WebP variants from original PNGs."""
+"""Build downscaled PNG/WebP variants, preserving original alpha."""
 
 import hashlib
 import json
@@ -26,7 +26,6 @@ def verify_pair(expected, png, webp):
         visible = alpha.point(lambda value: 255 if value else 0).convert('RGB')
         difference = ImageChops.difference(expected.convert('RGB'), actual_webp.convert('RGB'))
         assert ImageChops.multiply(difference, visible).getbbox() is None, webp
-        assert alpha.getextrema()[0] == 0, png
 
 
 def main():

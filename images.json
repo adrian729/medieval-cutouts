@@ -2104,5 +2104,459 @@
       "cream"
     ],
     "composition": "single-figure"
+  },
+  {
+    "name": "animal-musicians-ensemble",
+    "png": "png/animal-musicians-ensemble.png",
+    "webp": "webp/animal-musicians-ensemble.webp",
+    "width": 720,
+    "height": 533,
+    "png_bytes": 1345152,
+    "webp_bytes": 664008,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "width": 128,
+        "height": 95,
+        "png": "png/128/animal-musicians-ensemble.png",
+        "webp": "webp/128/animal-musicians-ensemble.webp",
+        "png_bytes": 35485,
+        "webp_bytes": 28024
+      },
+      {
+        "max_dimension": 256,
+        "width": 256,
+        "height": 190,
+        "png": "png/256/animal-musicians-ensemble.png",
+        "webp": "webp/256/animal-musicians-ensemble.webp",
+        "png_bytes": 147157,
+        "webp_bytes": 103056
+      },
+      {
+        "max_dimension": 512,
+        "width": 512,
+        "height": 379,
+        "png": "png/512/animal-musicians-ensemble.png",
+        "webp": "webp/512/animal-musicians-ensemble.webp",
+        "png_bytes": 582923,
+        "webp_bytes": 357460
+      }
+    ],
+    "description": "A complete framed manuscript scene on green grass with a patterned blue, gold, and pink background: animals gather around an open score, a bowed string player, a donkey at a pipe organ, white geese, a red animal with bagpipes and a drum, a pale animal ringing bells, and a harp lying on the ground.",
+    "categories": [
+      "animals",
+      "music",
+      "fantasy"
+    ],
+    "subjects": [
+      "animal-like-creature",
+      "donkey",
+      "goose",
+      "organ",
+      "fiddle",
+      "bagpipes",
+      "drum",
+      "bells",
+      "harp",
+      "music-stand",
+      "score"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "green",
+      "blue",
+      "gold",
+      "pink",
+      "red",
+      "brown",
+      "white"
+    ],
+    "composition": "framed-scene"
+  },
+  {
+    "name": "animal-choir-landscape",
+    "png": "png/animal-choir-landscape.png",
+    "webp": "webp/animal-choir-landscape.webp",
+    "width": 2135,
+    "height": 737,
+    "png_bytes": 1774790,
+    "webp_bytes": 1265934,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "width": 128,
+        "height": 44,
+        "png": "png/128/animal-choir-landscape.png",
+        "webp": "webp/128/animal-choir-landscape.webp",
+        "png_bytes": 11450,
+        "webp_bytes": 9390
+      },
+      {
+        "max_dimension": 256,
+        "width": 256,
+        "height": 88,
+        "png": "png/256/animal-choir-landscape.png",
+        "webp": "webp/256/animal-choir-landscape.webp",
+        "png_bytes": 37657,
+        "webp_bytes": 29718
+      },
+      {
+        "max_dimension": 512,
+        "width": 512,
+        "height": 177,
+        "png": "png/512/animal-choir-landscape.png",
+        "webp": "webp/512/animal-choir-landscape.webp",
+        "png_bytes": 132989,
+        "webp_bytes": 96764
+      },
+      {
+        "max_dimension": 768,
+        "width": 768,
+        "height": 265,
+        "png": "png/768/animal-choir-landscape.png",
+        "webp": "webp/768/animal-choir-landscape.webp",
+        "png_bytes": 277809,
+        "webp_bytes": 200246
+      }
+    ],
+    "description": "A herd of cattle and a small hoofed animal face left toward a wooden music stand with an open score, with two small birds flying above and a narrow greenish ground strip beneath the full group.",
+    "categories": [
+      "animals",
+      "music",
+      "fantasy"
+    ],
+    "subjects": [
+      "cattle",
+      "animal-like-creature",
+      "bird",
+      "music-stand",
+      "score"
+    ],
+    "facing": "left",
+    "colors": [
+      "brown",
+      "orange",
+      "cream",
+      "black",
+      "green",
+      "gold"
+    ],
+    "composition": "multiple-figures"
+  },
+  {
+    "name": "rabbit-reading-book",
+    "png": "png/rabbit-reading-book.png",
+    "webp": "webp/rabbit-reading-book.webp",
+    "width": 1500,
+    "height": 1049,
+    "png_bytes": 1407667,
+    "webp_bytes": 960268,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "width": 128,
+        "height": 90,
+        "png": "png/128/rabbit-reading-book.png",
+        "webp": "webp/128/rabbit-reading-book.webp",
+        "png_bytes": 16358,
+        "webp_bytes": 13080
+      },
+      {
+        "max_dimension": 256,
+        "width": 256,
+        "height": 179,
+        "png": "png/256/rabbit-reading-book.png",
+        "webp": "webp/256/rabbit-reading-book.webp",
+        "png_bytes": 55159,
+        "webp_bytes": 38766
+      },
+      {
+        "max_dimension": 512,
+        "width": 512,
+        "height": 358,
+        "png": "png/512/rabbit-reading-book.png",
+        "webp": "webp/512/rabbit-reading-book.webp",
+        "png_bytes": 192958,
+        "webp_bytes": 134242
+      },
+      {
+        "max_dimension": 768,
+        "width": 768,
+        "height": 537,
+        "png": "png/768/rabbit-reading-book.png",
+        "webp": "webp/768/rabbit-reading-book.webp",
+        "png_bytes": 407060,
+        "webp_bytes": 282228
+      }
+    ],
+    "description": "A brown rabbit with tall ears and a wide white eye leans left over an open pale book, with a paw resting on the marked pages.",
+    "categories": [
+      "animals",
+      "reading",
+      "fantasy"
+    ],
+    "subjects": [
+      "rabbit",
+      "book"
+    ],
+    "facing": "left",
+    "colors": [
+      "brown",
+      "cream",
+      "white"
+    ],
+    "composition": "single-figure"
+  },
+  {
+    "name": "cat-reading-book",
+    "png": "png/cat-reading-book.png",
+    "webp": "webp/cat-reading-book.webp",
+    "width": 1254,
+    "height": 1254,
+    "png_bytes": 1080180,
+    "webp_bytes": 726458,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "width": 128,
+        "height": 128,
+        "png": "png/128/cat-reading-book.png",
+        "webp": "webp/128/cat-reading-book.webp",
+        "png_bytes": 17886,
+        "webp_bytes": 13468
+      },
+      {
+        "max_dimension": 256,
+        "width": 256,
+        "height": 256,
+        "png": "png/256/cat-reading-book.png",
+        "webp": "webp/256/cat-reading-book.webp",
+        "png_bytes": 60109,
+        "webp_bytes": 41928
+      },
+      {
+        "max_dimension": 512,
+        "width": 512,
+        "height": 512,
+        "png": "png/512/cat-reading-book.png",
+        "webp": "webp/512/cat-reading-book.webp",
+        "png_bytes": 209681,
+        "webp_bytes": 142398
+      },
+      {
+        "max_dimension": 768,
+        "width": 768,
+        "height": 768,
+        "png": "png/768/cat-reading-book.png",
+        "webp": "webp/768/cat-reading-book.webp",
+        "png_bytes": 441781,
+        "webp_bytes": 298968
+      }
+    ],
+    "description": "A seated blue-gray cat with a long striped tail and thin whiskers tilts its head up-right beside an open pale book, with a paw on the pages.",
+    "categories": [
+      "animals",
+      "reading",
+      "fantasy"
+    ],
+    "subjects": [
+      "cat",
+      "book"
+    ],
+    "facing": "right",
+    "colors": [
+      "blue",
+      "gray",
+      "cream",
+      "brown"
+    ],
+    "composition": "single-figure"
+  },
+  {
+    "name": "creature-in-gold-shape",
+    "png": "png/creature-in-gold-shape.png",
+    "webp": "webp/creature-in-gold-shape.webp",
+    "width": 1167,
+    "height": 1348,
+    "png_bytes": 1752682,
+    "webp_bytes": 1216978,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "width": 111,
+        "height": 128,
+        "png": "png/128/creature-in-gold-shape.png",
+        "webp": "webp/128/creature-in-gold-shape.webp",
+        "png_bytes": 23726,
+        "webp_bytes": 18770
+      },
+      {
+        "max_dimension": 256,
+        "width": 222,
+        "height": 256,
+        "png": "png/256/creature-in-gold-shape.png",
+        "webp": "webp/256/creature-in-gold-shape.webp",
+        "png_bytes": 81258,
+        "webp_bytes": 57408
+      },
+      {
+        "max_dimension": 512,
+        "width": 443,
+        "height": 512,
+        "png": "png/512/creature-in-gold-shape.png",
+        "webp": "webp/512/creature-in-gold-shape.webp",
+        "png_bytes": 286865,
+        "webp_bytes": 202584
+      },
+      {
+        "max_dimension": 768,
+        "width": 665,
+        "height": 768,
+        "png": "png/768/creature-in-gold-shape.png",
+        "webp": "webp/768/creature-in-gold-shape.webp",
+        "png_bytes": 612480,
+        "webp_bytes": 432184
+      }
+    ],
+    "description": "A pale grotesque creature with a round face, dark mouthpiece-like object, raised arm, and curling appendages sits within a large curved gold form with a pointed upper-right extension.",
+    "categories": [
+      "fantasy"
+    ],
+    "subjects": [
+      "creature",
+      "gold-shape"
+    ],
+    "facing": "front",
+    "colors": [
+      "cream",
+      "gold",
+      "black"
+    ],
+    "composition": "single-figure"
+  },
+  {
+    "name": "funny-faced-lying-cat",
+    "png": "png/funny-faced-lying-cat.png",
+    "webp": "webp/funny-faced-lying-cat.webp",
+    "width": 1448,
+    "height": 1086,
+    "png_bytes": 2304520,
+    "webp_bytes": 1530974,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "width": 128,
+        "height": 96,
+        "png": "png/128/funny-faced-lying-cat.png",
+        "webp": "webp/128/funny-faced-lying-cat.webp",
+        "png_bytes": 22565,
+        "webp_bytes": 17006
+      },
+      {
+        "max_dimension": 256,
+        "width": 256,
+        "height": 192,
+        "png": "png/256/funny-faced-lying-cat.png",
+        "webp": "webp/256/funny-faced-lying-cat.webp",
+        "png_bytes": 84519,
+        "webp_bytes": 59650
+      },
+      {
+        "max_dimension": 512,
+        "width": 512,
+        "height": 384,
+        "png": "png/512/funny-faced-lying-cat.png",
+        "webp": "webp/512/funny-faced-lying-cat.webp",
+        "png_bytes": 327446,
+        "webp_bytes": 222424
+      },
+      {
+        "max_dimension": 768,
+        "width": 768,
+        "height": 576,
+        "png": "png/768/funny-faced-lying-cat.png",
+        "webp": "webp/768/funny-faced-lying-cat.webp",
+        "png_bytes": 717954,
+        "webp_bytes": 481420
+      }
+    ],
+    "description": "A lying orange-brown tabby cat faces the viewer with tucked front paws, tall triangular ears, broad eyes, and a funny almost human-looking expression in a softly textured painting.",
+    "categories": [
+      "animals"
+    ],
+    "subjects": [
+      "cat"
+    ],
+    "facing": "front",
+    "colors": [
+      "orange",
+      "brown",
+      "cream"
+    ],
+    "composition": "single-figure"
+  },
+  {
+    "name": "hooded-harp-player",
+    "png": "png/hooded-harp-player.png",
+    "webp": "webp/hooded-harp-player.webp",
+    "width": 1089,
+    "height": 1444,
+    "png_bytes": 1451182,
+    "webp_bytes": 1052722,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "width": 97,
+        "height": 128,
+        "png": "png/128/hooded-harp-player.png",
+        "webp": "webp/128/hooded-harp-player.webp",
+        "png_bytes": 17319,
+        "webp_bytes": 14486
+      },
+      {
+        "max_dimension": 256,
+        "width": 193,
+        "height": 256,
+        "png": "png/256/hooded-harp-player.png",
+        "webp": "webp/256/hooded-harp-player.webp",
+        "png_bytes": 60027,
+        "webp_bytes": 44982
+      },
+      {
+        "max_dimension": 512,
+        "width": 386,
+        "height": 512,
+        "png": "png/512/hooded-harp-player.png",
+        "webp": "webp/512/hooded-harp-player.webp",
+        "png_bytes": 215583,
+        "webp_bytes": 158456
+      },
+      {
+        "max_dimension": 768,
+        "width": 579,
+        "height": 768,
+        "png": "png/768/hooded-harp-player.png",
+        "webp": "webp/768/hooded-harp-player.webp",
+        "png_bytes": 456768,
+        "webp_bytes": 334496
+      }
+    ],
+    "description": "A standing human facing left wears a tall blue hood, gold tunic, black leggings, and black shoes, playing a large gold harp held to the right.",
+    "categories": [
+      "humans",
+      "music"
+    ],
+    "subjects": [
+      "human",
+      "harp"
+    ],
+    "facing": "left",
+    "colors": [
+      "blue",
+      "gold",
+      "black",
+      "cream"
+    ],
+    "composition": "single-figure"
   }
 ]

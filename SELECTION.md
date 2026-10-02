@@ -21,6 +21,7 @@ Read [`images.json`](images.json) to select an illustration and its size. Each e
 | `humans` | Human figures. Human-like limbs on a creature do not by themselves add this category. |
 | `hybrids` | Figures visibly combining different kinds of bodies or features, such as a donkey head with rooster legs. |
 | `music` | Figures playing or holding musical instruments. Specific instruments appear in `subjects` and descriptions. |
+| `reading` | Figures reading or holding open books. |
 | `fantasy` | Mythical creatures, impossible anatomy, or animals performing human activities such as playing music. |
 | `royalty` | Visible royal imagery, currently a crown. This describes the motif, not a verified historical identity. |
 
@@ -30,7 +31,7 @@ These tags describe the published cutouts. When a subject is identified or corre
 
 1. Match the requested broad categories and specific subjects. Use descriptions for details that have no dedicated field. For example, a rabbit musician matches category `music` and subject `rabbit`; a winged animal matches `animals` and a description mentioning wings.
 2. Compare facing, colors, composition, and width/height against the intended layout. A corner illustration can face toward the page content. Do not assume a square canvas means the visible figure is square: transparent padding may remain.
-3. Inspect candidate previews before choosing. Metadata supports selection but does not describe every visual detail. Check legibility at the intended display size and against the intended background.
+3. Inspect candidate previews before choosing. Metadata supports selection but does not describe every visual detail. Check legibility at the intended display size and against the intended background. Some framed scenes intentionally retain an opaque background; check before treating an image as a transparent decoration.
 4. Choose an existing variant whose width **and** height meet the displayed dimensions multiplied by the display's pixel density. Prefer the smallest sufficient variant. Use the original if no smaller version suffices. If even the original is too small, choose another image or reduce the display size; never generate an enlarged asset.
 5. Use the exact catalog path. Prefer WebP for its smaller file size, or PNG when needed. For remote use, prepend `https://raw.githubusercontent.com/adrian729/medieval-cutouts/main/`. Replace `main` with a commit SHA to pin a version.
 

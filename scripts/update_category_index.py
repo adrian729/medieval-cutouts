@@ -12,6 +12,7 @@ CATEGORIES = {
     'humans': 'Humans',
     'hybrids': 'Hybrids',
     'music': 'Music',
+    'reading': 'Reading',
     'fantasy': 'Fantasy',
     'royalty': 'Royalty',
 }
