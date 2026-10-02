@@ -130,9 +130,9 @@
     "composition": "single-figure"
   },
   {
-    "name": "boar-horn-player",
-    "png": "png/boar-horn-player.png",
-    "webp": "webp/boar-horn-player.webp",
+    "name": "boar-lute-player",
+    "png": "png/boar-lute-player.png",
+    "webp": "webp/boar-lute-player.webp",
     "width": 1177,
     "height": 1337,
     "png_bytes": 1288066,
@@ -142,8 +142,8 @@
         "max_dimension": 128,
         "width": 113,
         "height": 128,
-        "png": "png/128/boar-horn-player.png",
-        "webp": "webp/128/boar-horn-player.webp",
+        "png": "png/128/boar-lute-player.png",
+        "webp": "webp/128/boar-lute-player.webp",
         "png_bytes": 17670,
         "webp_bytes": 13210
       },
@@ -151,8 +151,8 @@
         "max_dimension": 256,
         "width": 225,
         "height": 256,
-        "png": "png/256/boar-horn-player.png",
-        "webp": "webp/256/boar-horn-player.webp",
+        "png": "png/256/boar-lute-player.png",
+        "webp": "webp/256/boar-lute-player.webp",
         "png_bytes": 60808,
         "webp_bytes": 44724
       },
@@ -160,8 +160,8 @@
         "max_dimension": 512,
         "width": 451,
         "height": 512,
-        "png": "png/512/boar-horn-player.png",
-        "webp": "webp/512/boar-horn-player.webp",
+        "png": "png/512/boar-lute-player.png",
+        "webp": "webp/512/boar-lute-player.webp",
         "png_bytes": 219017,
         "webp_bytes": 157878
       },
@@ -169,13 +169,13 @@
         "max_dimension": 768,
         "width": 676,
         "height": 768,
-        "png": "png/768/boar-horn-player.png",
-        "webp": "webp/768/boar-horn-player.webp",
+        "png": "png/768/boar-lute-player.png",
+        "webp": "webp/768/boar-lute-player.webp",
         "png_bytes": 468045,
         "webp_bytes": 335318
       }
     ],
-    "description": "An upright blue-gray boar plays a curling gold horn facing right.",
+    "description": "An upright blue-gray boar plays a gold lute facing right.",
     "categories": [
       "animals",
       "fantasy",
@@ -183,7 +183,7 @@
     ],
     "subjects": [
       "boar",
-      "horn"
+      "lute"
     ],
     "facing": "right",
     "colors": [

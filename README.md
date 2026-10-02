@@ -77,7 +77,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 <summary>Show 19 images</summary>
 
 - [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
-- [boar-horn-player](webp/boar-horn-player.webp) — An upright blue-gray boar plays a curling gold horn facing right.
+- [boar-lute-player](webp/boar-lute-player.webp) — An upright blue-gray boar plays a gold lute facing right.
 - [bunny-harp](webp/bunny-harp.webp) — An upright brown rabbit facing right plays an orange and gold harp.
 - [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
 - [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
@@ -142,7 +142,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 
 - [anafiles](webp/anafiles.webp) — Two seated human musicians facing left play long gold trumpets with red pennants inside a blue rectangular manuscript frame.
 - [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
-- [boar-horn-player](webp/boar-horn-player.webp) — An upright blue-gray boar plays a curling gold horn facing right.
+- [boar-lute-player](webp/boar-lute-player.webp) — An upright blue-gray boar plays a gold lute facing right.
 - [bunny-harp](webp/bunny-harp.webp) — An upright brown rabbit facing right plays an orange and gold harp.
 - [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
 - [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
@@ -173,7 +173,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 <summary>Show 14 images</summary>
 
 - [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
-- [boar-horn-player](webp/boar-horn-player.webp) — An upright blue-gray boar plays a curling gold horn facing right.
+- [boar-lute-player](webp/boar-lute-player.webp) — An upright blue-gray boar plays a gold lute facing right.
 - [bunny-harp](webp/bunny-harp.webp) — An upright brown rabbit facing right plays an orange and gold harp.
 - [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
 - [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
@@ -206,7 +206,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 | --- | --- | --- | --- | --- |
 | <img src="webp/128/anafiles.webp" width="100" alt="anafiles"> | [anafiles](png/anafiles.png) | [WebP](webp/anafiles.webp) | 964 × 670 | [128](webp/128/anafiles.webp) · [256](webp/256/anafiles.webp) · [512](webp/512/anafiles.webp) · [768](webp/768/anafiles.webp) |
 | <img src="webp/128/bird-wind-player.webp" width="100" alt="bird-wind-player"> | [bird-wind-player](png/bird-wind-player.png) | [WebP](webp/bird-wind-player.webp) | 1211 × 1299 | [128](webp/128/bird-wind-player.webp) · [256](webp/256/bird-wind-player.webp) · [512](webp/512/bird-wind-player.webp) · [768](webp/768/bird-wind-player.webp) |
-| <img src="webp/128/boar-horn-player.webp" width="100" alt="boar-horn-player"> | [boar-horn-player](png/boar-horn-player.png) | [WebP](webp/boar-horn-player.webp) | 1177 × 1337 | [128](webp/128/boar-horn-player.webp) · [256](webp/256/boar-horn-player.webp) · [512](webp/512/boar-horn-player.webp) · [768](webp/768/boar-horn-player.webp) |
+| <img src="webp/128/boar-lute-player.webp" width="100" alt="boar-lute-player"> | [boar-lute-player](png/boar-lute-player.png) | [WebP](webp/boar-lute-player.webp) | 1177 × 1337 | [128](webp/128/boar-lute-player.webp) · [256](webp/256/boar-lute-player.webp) · [512](webp/512/boar-lute-player.webp) · [768](webp/768/boar-lute-player.webp) |
 | <img src="webp/128/bunny-harp.webp" width="100" alt="bunny-harp"> | [bunny-harp](png/bunny-harp.png) | [WebP](webp/bunny-harp.webp) | 1021 × 1541 | [128](webp/128/bunny-harp.webp) · [256](webp/256/bunny-harp.webp) · [512](webp/512/bunny-harp.webp) · [768](webp/768/bunny-harp.webp) |
 | <img src="webp/128/bunny-trumpet.webp" width="100" alt="bunny-trumpet"> | [bunny-trumpet](png/bunny-trumpet.png) | [WebP](webp/bunny-trumpet.webp) | 1536 × 1024 | [128](webp/128/bunny-trumpet.webp) · [256](webp/256/bunny-trumpet.webp) · [512](webp/512/bunny-trumpet.webp) · [768](webp/768/bunny-trumpet.webp) |
 | <img src="webp/128/canine-fiddle-player.webp" width="100" alt="canine-fiddle-player"> | [canine-fiddle-player](png/canine-fiddle-player.png) | [WebP](webp/canine-fiddle-player.webp) | 1188 × 1324 | [128](webp/128/canine-fiddle-player.webp) · [256](webp/256/canine-fiddle-player.webp) · [512](webp/512/canine-fiddle-player.webp) · [768](webp/768/canine-fiddle-player.webp) |
