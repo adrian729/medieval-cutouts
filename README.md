@@ -8,6 +8,8 @@ The twelve musicians from the three-row, four-column illustration use `r1-c1` th
 
 Cutouts were prepared from supplied illustrations using image generation and background extraction. WebP conversion is lossless; visible pixels and alpha channels were checked against the PNG originals.
 
+For adding images or making changes, follow [the repository guide](AGENTS.md). `AGENT.md` points to it, and `CLAUDE.md` imports it so agent instructions stay in one place.
+
 ## Smaller sizes
 
 Every image has 128, 256, 512, and 768 pixel versions in both formats. The number is the **longest edge**, so a portrait image stays portrait and a landscape image stays landscape. Images are never cropped, stretched, or enlarged. Future source images smaller than a requested size are skipped for that size.
