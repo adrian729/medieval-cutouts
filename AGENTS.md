@@ -17,7 +17,7 @@ This is `adrian729/medieval-cutouts`, a public collection of medieval manuscript
 | `scripts/update_category_index.py` | Validates metadata and paths; generates the README category index. |
 | `requirements.txt` | Pillow dependency for image conversion and resizing. |
 | `AGENTS.md` | Canonical agent instructions; edit this file when conventions change. |
-| `AGENT.md`, `CLAUDE.md` | Thin pointers to this guide; do not duplicate the instructions there. |
+| `CLAUDE.md` | Imports this guide; do not duplicate the instructions there. |
 
 Work inside this repository. The parent workspace can contain source images, unrelated files, and private configuration: do not bulk-copy or stage it. **Polyhymnia logos are explicitly excluded** and must stay outside this repository. Keep temporary previews and scratch files in ignored `tmp/` or a system temporary directory. Do not claim a license or historical provenance that has not been established.
 

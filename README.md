@@ -8,7 +8,7 @@ The twelve musicians from the three-row, four-column illustration use `r1-c1` th
 
 Cutouts were prepared from supplied illustrations using image generation and background extraction. WebP conversion is lossless; visible pixels and alpha channels were checked against the PNG originals.
 
-For adding images or making changes, follow [the repository guide](AGENTS.md). `AGENT.md` points to it, and `CLAUDE.md` imports it so agent instructions stay in one place.
+For adding images or making changes, follow [the repository guide](AGENTS.md). `CLAUDE.md` imports it so agent instructions stay in one place.
 
 ## Smaller sizes
 
