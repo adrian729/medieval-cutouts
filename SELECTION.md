@@ -24,7 +24,7 @@ Read [`images.json`](images.json) to select an illustration and its size. Each e
 | `fantasy` | Mythical creatures, impossible anatomy, or animals performing human activities such as playing music. |
 | `royalty` | Visible royal imagery, currently a crown. This describes the motif, not a verified historical identity. |
 
-These tags describe the published cutouts. Filenames are stable identifiers and can be less precise than the descriptions. For example, `fish-with-legs` depicts raised human arms, and `rabbit-lute-player` has a string instrument whose exact type is left unspecified. Ambiguous creatures use names such as `animal-like-creature`, `bird-like-creature`, `canine-like-creature`, and `dog-like-creature`; do not infer a definite species from those tags.
+These tags describe the published cutouts. When a subject is identified or corrected, update its filename, catalog name, paths, metadata, and documentation together. Use descriptions for details and uncertainty: for example, `rabbit-lute-player` has a string instrument whose exact type is left unspecified. Ambiguous creatures use names such as `animal-like-creature`, `bird-like-creature`, `canine-like-creature`, and `dog-like-creature`; do not infer a definite species from those tags.
 
 ## Selection workflow
 
