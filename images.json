@@ -621,14 +621,14 @@
         "webp_bytes": 361882
       }
     ],
-    "description": "A gold reptile-like dragon in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.",
+    "description": "A gold lizard in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.",
     "categories": [
       "animals",
       "fantasy",
       "music"
     ],
     "subjects": [
-      "dragon",
+      "lizard",
       "lute"
     ],
     "facing": "right",
@@ -685,7 +685,7 @@
         "webp_bytes": 390360
       }
     ],
-    "description": "A blue-green fish faces right with two pale human-like limbs raised above its back and red cloth between them.",
+    "description": "A blue-green fish faces right with two pale human arms raised above its back and red cloth between them.",
     "categories": [
       "animals",
       "hybrids",

@@ -84,8 +84,8 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [crowned-cat](webp/crowned-cat.webp) — A seated cream-colored cat with a long striped tail wears an ornate gold crown and shows a red tongue, looking mostly toward the viewer.
 - [curled-cat](webp/curled-cat.webp) — A brown and gold cat curls into a compact rounded shape with its tail over its body and its face tilted toward the viewer.
 - [donkey-organist](webp/donkey-organist.webp) — A seated gray donkey facing right plays a tall gold pipe organ positioned to its right.
-- [dragon-lute-player](webp/dragon-lute-player.webp) — A gold reptile-like dragon in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.
-- [fish-with-legs](webp/fish-with-legs.webp) — A blue-green fish faces right with two pale human-like limbs raised above its back and red cloth between them.
+- [dragon-lute-player](webp/dragon-lute-player.webp) — A gold lizard in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.
+- [fish-with-legs](webp/fish-with-legs.webp) — A blue-green fish faces right with two pale human arms raised above its back and red cloth between them.
 - [flying-pig](webp/flying-pig.webp) — A pink pig facing right has large gold feathered wings, a curled tail, and dangling legs.
 - [frog](webp/frog.webp) — A broad green frog with dark spots crouches facing left.
 - [rabbit-bagpiper](webp/rabbit-bagpiper.webp) — An upright gray rabbit faces left while playing pale round bagpipes, with a short pipe on the left and a very long gold pipe extending right.
@@ -127,7 +127,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 
 - [bird-wind-player](webp/bird-wind-player.webp) — A dark bird-like creature with human arms and a pale blue patterned belly plays a long red and gold wind instrument facing left.
 - [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
-- [fish-with-legs](webp/fish-with-legs.webp) — A blue-green fish faces right with two pale human-like limbs raised above its back and red cloth between them.
+- [fish-with-legs](webp/fish-with-legs.webp) — A blue-green fish faces right with two pale human arms raised above its back and red cloth between them.
 - [flying-pig](webp/flying-pig.webp) — A pink pig facing right has large gold feathered wings, a curled tail, and dangling legs.
 - [rabbit-lute-player](webp/rabbit-lute-player.webp) — A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.
 - [weird-dog](webp/weird-dog.webp) — A seated shaggy dog-like creature has a human-like bearded face looking toward the viewer, dark paws, and a long curled tail.
@@ -147,7 +147,7 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
 - [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
 - [donkey-organist](webp/donkey-organist.webp) — A seated gray donkey facing right plays a tall gold pipe organ positioned to its right.
-- [dragon-lute-player](webp/dragon-lute-player.webp) — A gold reptile-like dragon in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.
+- [dragon-lute-player](webp/dragon-lute-player.webp) — A gold lizard in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.
 - [hooded-bagpiper](webp/hooded-bagpiper.webp) — A standing human facing right wears a pointed red-orange hood and tunic with green lining and black shoes, playing pale bagpipes with a long pipe extending left.
 - [musician-r1-c1-organ-player](webp/musician-r1-c1-organ-player.webp) — A seated human facing right wears a patterned cream cap, red sleeves, and a brown robe, holding small vertical organ pipes and gesturing right.
 - [musician-r1-c2-shawm-player](webp/musician-r1-c2-shawm-player.webp) — A standing human facing right wears a cream cap, dark blue tunic, and red stockings, playing a long straight gold shawm extending right.
@@ -178,8 +178,8 @@ Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and
 - [bunny-trumpet](webp/bunny-trumpet.webp) — A seated brown rabbit facing left plays a long gold trumpet extending to the left.
 - [canine-fiddle-player](webp/canine-fiddle-player.webp) — A canine-headed figure in a blue tunic, red collar, and black boots strides left while playing a bowed fiddle, with its snout tilted upward.
 - [donkey-organist](webp/donkey-organist.webp) — A seated gray donkey facing right plays a tall gold pipe organ positioned to its right.
-- [dragon-lute-player](webp/dragon-lute-player.webp) — A gold reptile-like dragon in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.
-- [fish-with-legs](webp/fish-with-legs.webp) — A blue-green fish faces right with two pale human-like limbs raised above its back and red cloth between them.
+- [dragon-lute-player](webp/dragon-lute-player.webp) — A gold lizard in a blue cap and tunic plays a pink and gold lute facing right, with clawed feet and a tail curving left.
+- [fish-with-legs](webp/fish-with-legs.webp) — A blue-green fish faces right with two pale human arms raised above its back and red cloth between them.
 - [flying-pig](webp/flying-pig.webp) — A pink pig facing right has large gold feathered wings, a curled tail, and dangling legs.
 - [rabbit-bagpiper](webp/rabbit-bagpiper.webp) — An upright gray rabbit faces left while playing pale round bagpipes, with a short pipe on the left and a very long gold pipe extending right.
 - [rabbit-lute-player](webp/rabbit-lute-player.webp) — A rabbit-headed hybrid facing right wears an orange tunic and black waist pouch, with gold bird-like legs and a green feathered tail, holding a gold string instrument with a crank-like handle.
