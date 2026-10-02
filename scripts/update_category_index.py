@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate selection metadata and refresh the README category index."""
+"""Validate metadata and alphabetize the README category index and gallery."""
 
 import argparse
 import json
@@ -59,14 +59,16 @@ def validate(catalog):
 
 
 def category_index(catalog):
-    groups = {tag: [item for item in catalog if tag in item['categories']]
+    groups = {tag: [item for item in sorted(catalog, key=lambda item: item['name'].casefold())
+                    if tag in item['categories']]
               for tag in CATEGORIES}
+    categories = sorted(CATEGORIES.items(), key=lambda pair: pair[1].casefold())
     lines = [START, '## Browse by category', '',
              'Categories overlap. See [the selection guide](SELECTION.md) for tag meanings and size selection.', '',
              '| Category | Images |', '| --- | --- |']
-    for tag, label in CATEGORIES.items():
+    for tag, label in categories:
         lines.append(f'| [{label}](#{tag}) | {len(groups[tag])} |')
-    for tag, label in CATEGORIES.items():
+    for tag, label in categories:
         lines.extend(['', f'### {label}', '', '<details>',
                       f'<summary>Show {len(groups[tag])} images</summary>', ''])
         for item in groups[tag]:
@@ -74,6 +76,14 @@ def category_index(catalog):
         lines.extend(['', '</details>'])
     lines.extend(['', END])
     return '\n'.join(lines)
+
+
+def sort_gallery(readme):
+    # Preserve each manually maintained row; only reorder image names.
+    return re.sub(r'(?m)(?:^\| <img[^\n]*\n)+',
+                  lambda match: ''.join(sorted(match.group().splitlines(keepends=True),
+                      key=lambda row: re.search(r'alt="([^"]+)"', row).group(1).casefold())),
+                  readme)
 
 
 def main():
@@ -87,9 +97,9 @@ def main():
     require(readme.count(START) == readme.count(END) == 1, 'README needs one category index block')
     start, end = readme.index(START), readme.index(END) + len(END)
     require(start < end - len(END), 'Category index markers out of order')
-    updated = readme[:start] + category_index(catalog) + readme[end:]
+    updated = sort_gallery(readme[:start] + category_index(catalog) + readme[end:])
     if args.check:
-        require(updated == readme, 'README index is stale; run scripts/update_category_index.py')
+        require(updated == readme, 'README index or gallery order is stale; run scripts/update_category_index.py')
     else:
         path.write_text(updated)
     print(f'Validated {len(catalog)} images across {len(CATEGORIES)} categories; README index is current.')

@@ -53,7 +53,7 @@ If changing category or color vocabulary, update `SELECTION.md` and the constant
 5. Add a row to the README's `## Images` gallery, matching its existing columns: preview, original PNG, original WebP, original dimensions, and links to available smaller WebPs. Choose an available small preview; do not link to skipped variants. Update the collection count in the README introduction.
 6. Run `python3 scripts/update_category_index.py` to refresh categories, then the checks below. Inspect the new image on light and dark backgrounds and at a small display size.
 
-The category updater only rewrites the block between `<!-- category-index:start -->` and `<!-- category-index:end -->`. It does **not** update the gallery or introduction count. Edit those separately. Do not hand-edit the generated category block.
+The category updater regenerates the block between `<!-- category-index:start -->` and `<!-- category-index:end -->` and alphabetizes existing gallery rows by image name. Categories and their image lists are alphabetical too. It does **not** create gallery rows or update the introduction count; edit those separately. Do not hand-edit the generated category block.
 
 ## Correcting identities or names
 
